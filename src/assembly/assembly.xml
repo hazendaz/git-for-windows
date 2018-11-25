@@ -12,7 +12,7 @@
 
     <fileSets>
         <fileSet>
-            <directory>${project.basedir}/src/git</directory>
+            <directory>${project.build.directory}/git</directory>
             <outputDirectory />
             <includes>
                 <include>**/*</include>
