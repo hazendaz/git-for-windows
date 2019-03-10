@@ -11,7 +11,7 @@
 
     <groupId>com.github.hazendaz.git</groupId>
     <artifactId>git-for-windows</artifactId>
-    <version>2.20.2-SNAPSHOT</version>
+    <version>2.21.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>git-for-windows</name>
@@ -26,7 +26,7 @@
     </scm>
 
     <properties>
-        <git.version>2.20.1</git.version>
+        <git.version>2.21.0</git.version>
         <patch.version>1</patch.version>
 
         <download-plugin.version>1.4.1</download-plugin.version>
