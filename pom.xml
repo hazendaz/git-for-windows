@@ -24,6 +24,13 @@
         <url>https://github.io/hazendaz/git-for-windows</url>
         <tag>HEAD</tag>
     </scm>
+    <distributionManagement>
+        <site>
+            <id>gh-pages</id>
+            <name>Git For Windows Distribution Wrapper GitHub Pages</name>
+            <url>git:ssh://git@github.com/hazendaz/git-for-windows.git?gh-pages#</url>
+        </site>
+    </distributionManagement>
 
     <properties>
         <git.version>2.24.0</git.version>
