@@ -28,7 +28,7 @@
         <site>
             <id>gh-pages</id>
             <name>Git For Windows Distribution Wrapper GitHub Pages</name>
-            <url>github:https://hazendaz.github.io/github-for-windows/</url>
+            <url>github:https://hazendaz.github.io/git-for-windows/</url>
         </site>
     </distributionManagement>
 
