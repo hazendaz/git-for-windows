@@ -37,7 +37,7 @@
         <patch.version>2</patch.version>
         <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number">.2</subpatch.version>
 
-        <download-plugin.version>1.4.2</download-plugin.version>
+        <download-plugin.version>1.5.0</download-plugin.version>
     </properties>
 
     <build>
