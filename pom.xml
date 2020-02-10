@@ -49,7 +49,6 @@
     </properties>
 
     <build>
-        <finalName>git-for-windows</finalName>
         <plugins>
             <!-- Download -->
             <plugin>
