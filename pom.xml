@@ -22,7 +22,7 @@
             <name>GNU Library General Public License, version 2.0</name>
             <url>https://www.gnu.org/licenses/old-licenses/lgpl-2.0.en.html</url>
             <distribution>repo</distribution>
-            <description>See 'COPYING' file attached to this project from git-for-windows project.</description>
+            <comments>See 'COPYING' file attached to this project from git-for-windows project.</comments>
         </license>
     </licenses>
 
