@@ -2,7 +2,7 @@
 <assembly xmlns="https://maven.apache.org/ASSEMBLY/2.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://maven.apache.org/ASSEMBLY/2.0.0 https://maven.apache.org/xsd/assembly-2.0.0.xsd">
 
-    <id>distro</id>
+    <id>portable</id>
 
     <formats>
         <format>tar.gz</format>
@@ -12,10 +12,10 @@
 
     <fileSets>
         <fileSet>
-            <directory>${project.build.directory}/git</directory>
+            <directory>${project.build.directory}/portable-git</directory>
             <outputDirectory />
             <includes>
-                <include>**/*</include>
+                 <include>**/*</include>
             </includes>
         </fileSet>
     </fileSets>

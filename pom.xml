@@ -57,12 +57,23 @@
                 <version>${download-plugin.version}</version>
                 <executions>
                     <execution>
+                        <id>git</id>
                         <goals>
                             <goal>wget</goal>
                         </goals>
                         <configuration>
                             <url>https://github.com/git-for-windows/git/releases/download/v${git.version}.windows.${patch.version}/Git-${git.version}${subpatch.version}-64-bit.exe</url>
                             <outputDirectory>${project.build.directory}/git</outputDirectory>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>portable-git</id>
+                        <goals>
+                            <goal>wget</goal>
+                        </goals>
+                        <configuration>
+                            <url>https://github.com/git-for-windows/git/releases/download/v${git.version}.windows.${patch.version}/PortableGit-${git.version}-64-bit.7z.exe</url>
+                            <outputDirectory>${project.build.directory}/portable-git</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
@@ -72,18 +83,30 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <configuration>
-                    <descriptors>
-                        <descriptor>${project.basedir}/src/assembly/assembly.xml</descriptor>
-                    </descriptors>
-                </configuration>
                 <executions>
                     <execution>
-                        <id>make-assembly</id>
+                        <id>git-assembly</id>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>${project.basedir}/src/assembly/assembly-git.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>portable-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <descriptors>
+                                <descriptor>${project.basedir}/src/assembly/assembly-portable-git.xml</descriptor>
+                            </descriptors>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
