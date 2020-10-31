@@ -41,7 +41,7 @@
     </distributionManagement>
 
     <properties>
-        <git.version>2.28.0</git.version>
+        <git.version>2.29.2</git.version>
         <patch.version>1</patch.version>
         <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number" />
 
