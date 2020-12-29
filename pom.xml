@@ -41,9 +41,9 @@
     </distributionManagement>
 
     <properties>
-        <git.version>2.29.2</git.version>
-        <patch.version>2</patch.version>
-        <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number">.2</subpatch.version>
+        <git.version>2.30.0</git.version>
+        <patch.version>1</patch.version>
+        <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number"></subpatch.version>
 
         <download-plugin.version>1.6.0</download-plugin.version>
     </properties>
