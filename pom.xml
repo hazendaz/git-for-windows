@@ -11,7 +11,7 @@
 
     <groupId>com.github.hazendaz.git</groupId>
     <artifactId>git-for-windows</artifactId>
-    <version>2.38.1.1-SNAPSHOT</version>
+    <version>2.38.1.1</version>
     <packaging>pom</packaging>
 
     <name>git-for-windows</name>
@@ -30,7 +30,7 @@
         <connection>scm:git:ssh://git@github.com/hazendaz/git-for-windows.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/git-for-windows.git</developerConnection>
         <url>https://github.io/hazendaz/git-for-windows</url>
-        <tag>HEAD</tag>
+        <tag>git-for-windows-2.38.1.1</tag>
     </scm>
     <distributionManagement>
         <site>
