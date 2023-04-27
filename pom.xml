@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -11,7 +12,7 @@
 
     <groupId>com.github.hazendaz.git</groupId>
     <artifactId>git-for-windows</artifactId>
-    <version>2.40.0.1-SNAPSHOT</version>
+    <version>2.40.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>git-for-windows</name>
@@ -41,7 +42,7 @@
     </distributionManagement>
 
     <properties>
-        <git.version>2.40.0</git.version>
+        <git.version>2.40.1</git.version>
         <patch.version>1</patch.version>
         <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number such as '.2'" />
 
