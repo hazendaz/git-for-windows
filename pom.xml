@@ -32,7 +32,7 @@
 
     <groupId>com.github.hazendaz.git</groupId>
     <artifactId>git-for-windows</artifactId>
-    <version>2.43.0.1-SNAPSHOT</version>
+    <version>2.43.0.1</version>
     <packaging>pom</packaging>
 
     <name>git-for-windows</name>
@@ -51,7 +51,7 @@
         <connection>scm:git:ssh://git@github.com/hazendaz/git-for-windows.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/git-for-windows.git</developerConnection>
         <url>https://github.io/hazendaz/git-for-windows</url>
-        <tag>HEAD</tag>
+        <tag>git-for-windows-2.43.0.1</tag>
     </scm>
     <distributionManagement>
         <site>
@@ -64,7 +64,7 @@
     <properties>
         <git.version>2.43.0</git.version>
         <patch.version>1</patch.version>
-        <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number such as '.2'"></subpatch.version>
+        <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number such as '.2'" />
 
         <download-plugin.version>1.7.1</download-plugin.version>
     </properties>
