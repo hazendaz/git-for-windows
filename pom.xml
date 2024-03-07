@@ -2,7 +2,7 @@
 <!--
 
     git-for-windows - Distribution for Git For Windows
-    Copyright © 2011-2023 hazendaz (jeremylandis@hotmail.com)
+    Copyright © 2011-2024 hazendaz (jeremylandis@hotmail.com)
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -32,7 +32,7 @@
 
     <groupId>com.github.hazendaz.git</groupId>
     <artifactId>git-for-windows</artifactId>
-    <version>2.43.0.2-SNAPSHOT</version>
+    <version>2.44.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>git-for-windows</name>
@@ -62,7 +62,7 @@
     </distributionManagement>
 
     <properties>
-        <git.version>2.43.0</git.version>
+        <git.version>2.44.0</git.version>
         <patch.version>1</patch.version>
         <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number such as '.2'" />
 
