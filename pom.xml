@@ -50,8 +50,8 @@
     <scm>
         <connection>scm:git:ssh://git@github.com/hazendaz/git-for-windows.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/hazendaz/git-for-windows.git</developerConnection>
-        <url>https://github.io/hazendaz/git-for-windows</url>
         <tag>HEAD</tag>
+        <url>https://github.io/hazendaz/git-for-windows</url>
     </scm>
     <distributionManagement>
         <site>
@@ -130,10 +130,10 @@
                 <executions>
                     <execution>
                         <id>git-assembly</id>
-                        <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        <phase>package</phase>
                         <configuration>
                             <descriptors>
                                 <descriptor>${project.basedir}/src/assembly/assembly-git.xml</descriptor>
@@ -142,10 +142,10 @@
                     </execution>
                     <execution>
                         <id>portable-assembly</id>
-                        <phase>package</phase>
                         <goals>
                             <goal>single</goal>
                         </goals>
+                        <phase>package</phase>
                         <configuration>
                             <descriptors>
                                 <descriptor>${project.basedir}/src/assembly/assembly-portable-git.xml</descriptor>
