@@ -2,7 +2,7 @@
 <!--
 
     git-for-windows - Distribution for Git For Windows
-    Copyright © 2011-2024 hazendaz (jeremylandis@hotmail.com)
+    Copyright © 2011-2025 hazendaz (jeremylandis@hotmail.com)
 
     This program is free software; you can redistribute it and/or
     modify it under the terms of the GNU General Public License
@@ -66,7 +66,7 @@
         <patch.version>1</patch.version>
         <subpatch.version note="Leave blank when patch = 1, otherwise .x where x is patch number such as '.2'" />
 
-        <download-plugin.version>1.13.0</download-plugin.version>
+        <download-plugin.version>2.0.0</download-plugin.version>
     </properties>
 
     <build>
@@ -96,7 +96,7 @@
 
             <!-- Download -->
             <plugin>
-                <groupId>com.googlecode.maven-download-plugin</groupId>
+                <groupId>io.github.download-maven-plugin</groupId>
                 <artifactId>download-maven-plugin</artifactId>
                 <version>${download-plugin.version}</version>
                 <executions>
