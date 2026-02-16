@@ -2,7 +2,7 @@
 --------------------------
 
 [![Java CI](https://github.com/hazendaz/git-for-windows/workflows/Java%20CI/badge.svg)](https://github.com/hazendaz/git-for-windows/actions?query=workflow%3A%22Java+CI%22)
-[![Maven central](https://maven-badges.herokuapp.com/maven-central/com.github.hazendaz.git/git-for-windows/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.hazendaz.git/git-for-windows)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.hazendaz.git/git-for-windows.svg)](https://central.sonatype.com/artifact/com.github.hazendaz.git/git-for-windows)
 [![LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 ![hazendaz](src/site/resources/images/hazendaz-banner.jpg)
