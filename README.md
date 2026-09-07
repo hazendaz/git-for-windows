@@ -20,3 +20,9 @@ Git-for-Windows does not currently provide a maven central distribution of the p
 Maven based storage of distribution in common location to offer more secure download location for maven projects.
 
 This is useful for projects such as makeself-maven-plugin that utilize the portable distribution when platform ran on doesn't actually have git available.
+
+# Deprecated #
+
+Originally sonatype (nexus) served as an immutable location for both installer and portable.  These are now immutable in github itself.  The main intent with this was for makeself-maven-plugin
+which naturally wants to use maven to get these.  However, much has been done to work from existing git binaries already installed and given immutable releases in github, that process is expected
+to be changed over.  This is driven by sonatype limiting distributions with caps and fact this doesn't need to be maven driven.
